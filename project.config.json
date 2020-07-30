@@ -19,7 +19,8 @@
 		"enhance": true,
 		"useCompilerModule": true,
 		"userConfirmedUseCompilerModuleSwitch": false,
-		"showShadowRootInWxmlPanel": true
+		"showShadowRootInWxmlPanel": true,
+		"checkSiteMap":false
 	},
 	"appid": "wxff0ef9d68b5a8e7f",
 	"projectname": "minipgm_cloud",
