@@ -1,2 +1,18 @@
 <!--pages/cloud/cloud.wxml-->
-<text>pages/cloud/cloud.wxml</text>
+<view>云数据库</view>
+<button bindtap="insert">插入数据</button>
+<button bindtap="insert2">插入数据2</button>
+<button bindtap="update">更新数据</button>
+<button bindtap="search">查询</button>
+<button bindtap="delete">删除数据</button>
+<view>云函数</view>
+<button bindtap="sum">调用云函数sum</button>
+<button bindtap="getOpenId">获取当前用户openID</button>
+<button bindtap="batchDelete">批量删除</button>
+<view>上传图片</view>
+<button bindtap="upload">上传图片</button>
+<button bindtap="getFile">文件展示</button>
+<block wx:for="{{image}}" wx:key="index">
+    <image src="{{item.fileID}}"></image>
+    <button data-fileid="{{item.fileID}}" bindtap="downloadFile">文件下载</button>
+</block>
